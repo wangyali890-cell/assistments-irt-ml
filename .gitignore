@@ -1,0 +1,23 @@
+# 原始与处理后的数据不提交
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Python 缓存与本地环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Notebook 临时文件
+.ipynb_checkpoints/
+
+# 本地编辑器文件
+.vscode/
+.idea/
+
+# 运行日志
+*.log
